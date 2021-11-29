@@ -1,0 +1,9 @@
+E:\.net\New folder\Udemy project\Util\bin\Debug\netcoreapp3.1\Util.deps.json
+E:\.net\New folder\Udemy project\Util\bin\Debug\netcoreapp3.1\Util.dll
+E:\.net\New folder\Udemy project\Util\bin\Debug\netcoreapp3.1\Util.pdb
+E:\.net\New folder\Udemy project\Util\obj\Debug\netcoreapp3.1\Util.csprojAssemblyReference.cache
+E:\.net\New folder\Udemy project\Util\obj\Debug\netcoreapp3.1\Util.AssemblyInfoInputs.cache
+E:\.net\New folder\Udemy project\Util\obj\Debug\netcoreapp3.1\Util.AssemblyInfo.cs
+E:\.net\New folder\Udemy project\Util\obj\Debug\netcoreapp3.1\Util.csproj.CoreCompileInputs.cache
+E:\.net\New folder\Udemy project\Util\obj\Debug\netcoreapp3.1\Util.dll
+E:\.net\New folder\Udemy project\Util\obj\Debug\netcoreapp3.1\Util.pdb

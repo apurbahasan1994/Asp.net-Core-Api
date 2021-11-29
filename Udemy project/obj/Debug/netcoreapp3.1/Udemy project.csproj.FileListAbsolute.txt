@@ -1,0 +1,20 @@
+E:\.net\New folder\Udemy project\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\.net\New folder\Udemy project\bin\Debug\netcoreapp3.1\appsettings.json
+E:\.net\New folder\Udemy project\bin\Debug\netcoreapp3.1\Udemy project.exe
+E:\.net\New folder\Udemy project\bin\Debug\netcoreapp3.1\Udemy project.deps.json
+E:\.net\New folder\Udemy project\bin\Debug\netcoreapp3.1\Udemy project.runtimeconfig.json
+E:\.net\New folder\Udemy project\bin\Debug\netcoreapp3.1\Udemy project.runtimeconfig.dev.json
+E:\.net\New folder\Udemy project\bin\Debug\netcoreapp3.1\Udemy project.dll
+E:\.net\New folder\Udemy project\bin\Debug\netcoreapp3.1\Udemy project.pdb
+E:\.net\New folder\Udemy project\obj\Debug\netcoreapp3.1\Udemy project.csprojAssemblyReference.cache
+E:\.net\New folder\Udemy project\obj\Debug\netcoreapp3.1\Udemy project.AssemblyInfoInputs.cache
+E:\.net\New folder\Udemy project\obj\Debug\netcoreapp3.1\Udemy project.AssemblyInfo.cs
+E:\.net\New folder\Udemy project\obj\Debug\netcoreapp3.1\Udemy project.csproj.CoreCompileInputs.cache
+E:\.net\New folder\Udemy project\obj\Debug\netcoreapp3.1\Udemy project.MvcApplicationPartsAssemblyInfo.cache
+E:\.net\New folder\Udemy project\obj\Debug\netcoreapp3.1\staticwebassets\Udemy project.StaticWebAssets.Manifest.cache
+E:\.net\New folder\Udemy project\obj\Debug\netcoreapp3.1\staticwebassets\Udemy project.StaticWebAssets.xml
+E:\.net\New folder\Udemy project\obj\Debug\netcoreapp3.1\scopedcss\bundle\Udemy project.styles.css
+E:\.net\New folder\Udemy project\obj\Debug\netcoreapp3.1\Udemy project.RazorTargetAssemblyInfo.cache
+E:\.net\New folder\Udemy project\obj\Debug\netcoreapp3.1\Udemy project.dll
+E:\.net\New folder\Udemy project\obj\Debug\netcoreapp3.1\Udemy project.pdb
+E:\.net\New folder\Udemy project\obj\Debug\netcoreapp3.1\Udemy project.genruntimeconfig.cache
