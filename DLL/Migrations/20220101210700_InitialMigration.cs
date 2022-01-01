@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DLL.Migrations
 {
@@ -13,7 +14,11 @@ namespace DLL.Migrations
                     DepartmentId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Code = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Code = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    createdAt = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: false),
+                    createdBy = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: false),
+                    lastUpdated = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: false),
+                    Isdeleted = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -28,6 +33,9 @@ namespace DLL.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    createdAt = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: false),
+                    createdBy = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: false),
+                    lastUpdated = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: false),
                     Isdeleted = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>

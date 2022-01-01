@@ -59,12 +59,24 @@ namespace DLL.Context
             var entries = ChangeTracker.Entries().Where(e => e.State != EntityState.Detached && e.State != EntityState.Unchanged);
             foreach(var entry in entries)
             {
-                switch(entry.State)
+                if(entry is ITrackable trackable)
                 {
-                    case EntityState.Deleted:
-                        entry.Property(IsDeleted).CurrentValue = true;
-                        break;
+                    switch (entry.State)
+                    {
+                        case EntityState.Added:
+                            trackable.createdAt = DateTimeOffset.Now;
+                            trackable.lastUpdated = DateTimeOffset.Now;
+                            break;
+                        case EntityState.Modified:
+                            trackable.lastUpdated = DateTimeOffset.Now;
+                            break;
+                        case EntityState.Deleted:
+                            entry.Property(IsDeleted).CurrentValue = true;
+                            break;
+                    }
+
                 }
+              
             }
         }
 
