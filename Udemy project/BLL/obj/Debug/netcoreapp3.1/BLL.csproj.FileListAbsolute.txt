@@ -3,7 +3,6 @@ E:\.net\New folder\Udemy project\BLL\bin\Debug\netcoreapp3.1\BLL.dll
 E:\.net\New folder\Udemy project\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
 E:\.net\New folder\Udemy project\BLL\bin\Debug\netcoreapp3.1\DLL.dll
 E:\.net\New folder\Udemy project\BLL\bin\Debug\netcoreapp3.1\DLL.pdb
-E:\.net\New folder\Udemy project\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
 E:\.net\New folder\Udemy project\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
 E:\.net\New folder\Udemy project\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
 E:\.net\New folder\Udemy project\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
@@ -12,3 +11,5 @@ E:\.net\New folder\Udemy project\BLL\obj\Debug\netcoreapp3.1\BLL.dll
 E:\.net\New folder\Udemy project\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
 E:\.net\New folder\Udemy project\BLL\bin\Debug\netcoreapp3.1\Util.dll
 E:\.net\New folder\Udemy project\BLL\bin\Debug\netcoreapp3.1\Util.pdb
+E:\.net\New folder\Udemy project\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.AssemblyReference.cache
+E:\.net\New folder\Udemy project\BLL\obj\Debug\netcoreapp3.1\BLL.GeneratedMSBuildEditorConfig.editorconfig

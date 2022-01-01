@@ -9,4 +9,5 @@ E:\.net\New folder\DLL\obj\Debug\netcoreapp3.1\DLL.csproj.CoreCompileInputs.cach
 E:\.net\New folder\DLL\obj\Debug\netcoreapp3.1\DLL.dll
 E:\.net\New folder\DLL\obj\Debug\netcoreapp3.1\DLL.pdb
 E:\.net\New folder\DLL\obj\Debug\netcoreapp3.1\DLL.genruntimeconfig.cache
-E:\.net\New folder\DLL\obj\Debug\netcoreapp3.1\DLL.csprojAssemblyReference.cache
+E:\.net\New folder\DLL\obj\Debug\netcoreapp3.1\DLL.csproj.AssemblyReference.cache
+E:\.net\New folder\DLL\obj\Debug\netcoreapp3.1\DLL.GeneratedMSBuildEditorConfig.editorconfig

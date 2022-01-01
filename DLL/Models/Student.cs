@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using DLL.Models.Interfaces;
 
 namespace DLL.Models
 {
-    public class Student
+    public class Student: ISoftDelete
     {
         public int StudentId { get; set; }
         public string Name { get; set; }

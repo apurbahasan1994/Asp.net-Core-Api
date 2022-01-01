@@ -10,11 +10,11 @@
         "projectUniqueName": "E:\\.net\\New folder\\api\\api.csproj",
         "projectName": "api",
         "projectPath": "E:\\.net\\New folder\\api\\api.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\apurba\\.nuget\\packages\\",
         "outputPath": "E:\\.net\\New folder\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\apurba\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -51,6 +51,10 @@
               "target": "Package",
               "version": "[10.3.4, )"
             },
+            "Microsoft.CodeAnalysis": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -70,6 +74,12 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.Net.Compilers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.0.1, )"
             }
           },
           "imports": [
@@ -90,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -100,11 +110,11 @@
         "projectUniqueName": "E:\\.net\\New folder\\DLL\\DLL.csproj",
         "projectName": "DLL",
         "projectPath": "E:\\.net\\New folder\\DLL\\DLL.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\apurba\\.nuget\\packages\\",
         "outputPath": "E:\\.net\\New folder\\DLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\apurba\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -134,6 +144,10 @@
               "target": "Package",
               "version": "[10.3.4, )"
             },
+            "Microsoft.CodeAnalysis": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -153,6 +167,12 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.Net.Compilers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.0.1, )"
             }
           },
           "imports": [
@@ -170,7 +190,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -180,11 +200,11 @@
         "projectUniqueName": "E:\\.net\\New folder\\Udemy project\\BLL\\BLL.csproj",
         "projectName": "BLL",
         "projectPath": "E:\\.net\\New folder\\Udemy project\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\apurba\\.nuget\\packages\\",
         "outputPath": "E:\\.net\\New folder\\Udemy project\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\apurba\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -225,6 +245,10 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.CodeAnalysis": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -232,6 +256,12 @@
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.Net.Compilers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.0.1, )"
             }
           },
           "imports": [
@@ -249,7 +279,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -259,11 +289,11 @@
         "projectUniqueName": "E:\\.net\\New folder\\Udemy project\\Util\\Util.csproj",
         "projectName": "Util",
         "projectPath": "E:\\.net\\New folder\\Udemy project\\Util\\Util.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\apurba\\.nuget\\packages\\",
         "outputPath": "E:\\.net\\New folder\\Udemy project\\Util\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\apurba\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -288,6 +318,18 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.CodeAnalysis": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Microsoft.Net.Compilers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -303,7 +345,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
