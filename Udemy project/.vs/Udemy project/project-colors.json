@@ -5,7 +5,17 @@
       "ProjectGuid": "6e62afe8-7eb9-4e9f-bc69-f0c8847b6268",
       "DisplayName": "DLL",
       "ColorIndex": 0
+    },
+    "78adaff2-e148-4f99-a843-66b587a3229a": {
+      "ProjectGuid": "78adaff2-e148-4f99-a843-66b587a3229a",
+      "DisplayName": "api",
+      "ColorIndex": 1
+    },
+    "99ff962a-03c2-4636-a347-e841fdca6701": {
+      "ProjectGuid": "99ff962a-03c2-4636-a347-e841fdca6701",
+      "DisplayName": "BLL",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }

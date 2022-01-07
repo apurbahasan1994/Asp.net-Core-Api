@@ -13,5 +13,6 @@ namespace DLL.Models
         public DateTimeOffset createdAt { get; set ; }
         public string createdBy { get ; set ; }
         public DateTimeOffset lastUpdated { get ; set; }
+        public string lastUpdatedBy { get ; set ; }
     }
 }

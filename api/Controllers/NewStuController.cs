@@ -41,7 +41,7 @@ namespace api.Controllers
             return Ok(await _studentrepo.UpdateStudent(student));
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAStudent(int id)
         {
             return Ok(await _studentrepo.DeleteStudent(id));

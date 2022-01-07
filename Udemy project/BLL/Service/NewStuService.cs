@@ -20,21 +20,107 @@ namespace BLL.Service
     }
     public class NewStuService : INewStudService
     {
-        private readonly INewStuRepo _repo;
-        public NewStuService(INewStuRepo repo)
+        //private readonly INewStuRepo _repo;
+        //public NewStuService(INewStuRepo repo)
+        //{
+        //    _repo = repo;
+        //}
+
+        //public async Task<List<Student>> GetAllStudents()
+        //{
+        //    var student = await _repo.ListAll();
+        //    return student;
+        //}
+        //public async Task<Student> GetAStudent(int id)
+        //{
+        //    var oStudent= await _repo.FindSingleAsync(x=>x.StudentId==id);
+        //    if(oStudent==null)
+        //    {
+        //        throw new ApplicationValidationException("Student not found");
+        //    }
+        //    return oStudent;
+        //}
+        //public async Task<Student> InsertStudent(StudentViewModelInsert student)
+        //{
+        //    var exist = await _repo.FindSingleAsync(x => x.Email== student.Email);
+        //    if(exist==null)
+        //    {
+        //        Student oStudent = new Student();
+        //        oStudent.Name = student.Name;
+        //        oStudent.Email = student.Email;
+        //        await _repo.CreateAsync(oStudent);
+        //        if(await _repo.SaveChangesAsync())
+        //        {
+        //            return oStudent;
+        //        }
+        //        throw new ApplicationValidationException("Cant Save the student");
+        //    }
+        //    throw new ApplicationValidationException("Email already exist");
+
+
+
+        //}
+        //public async Task<Student> UpdateStudent(StudentViewModelInsert student)
+        //{
+        //    Student oStudent = new Student();
+        //    oStudent.Name = student.Name;
+        //    oStudent.Email = student.Email;
+        //    var exist = await _repo.FindSingleAsync(x => x.Email == student.Email);
+        //    if(exist==null)
+        //    {
+        //        _repo.UpdateteAsync(oStudent);
+        //        if(await _repo.SaveChangesAsync())
+        //        {
+        //            return oStudent;
+        //        }
+        //        throw new ApplicationValidationException("Cant update the student");
+        //    }
+        //    throw new ApplicationValidationException("Email already exist");
+        //}
+        //public async Task<Student> DeleteStudent(int id)
+        //{
+        //    var exist = await _repo.FindSingleAsync(x => x.StudentId ==id);
+        //    if(exist==null)
+        //    {
+        //        throw new ApplicationValidationException("There is no student with this id");
+        //    }
+        //    _repo.DeleteAsync(exist);
+        //    if(await _repo.SaveChangesAsync())
+        //    {
+        //        return exist;
+        //    }
+        //    throw new ApplicationValidationException("Cant delete this student. Something went wrong");
+
+        //}
+
+        //public async Task<bool> EmailExist(string email)
+        //{
+        //    var oStudent = await _repo.FindSingleAsync(x=>x.Email==email);
+        //    if (oStudent == null)
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
+
+        // using unitof work
+
+
+        private readonly IUnitOfWork _repo;
+        public NewStuService(IUnitOfWork repo)
         {
             _repo = repo;
         }
 
         public async Task<List<Student>> GetAllStudents()
         {
-            var student = await _repo.ListAll();
+            var student = await _repo.studentRepository.ListAll();
             return student;
         }
         public async Task<Student> GetAStudent(int id)
         {
-            var oStudent= await _repo.FindSingleAsync(x=>x.StudentId==id);
-            if(oStudent==null)
+            var oStudent = await _repo.studentRepository.FindSingleAsync(x => x.StudentId == id);
+            if (oStudent == null)
             {
                 throw new ApplicationValidationException("Student not found");
             }
@@ -42,14 +128,14 @@ namespace BLL.Service
         }
         public async Task<Student> InsertStudent(StudentViewModelInsert student)
         {
-            var exist = await _repo.FindSingleAsync(x => x.Email== student.Email);
-            if(exist==null)
+            var exist = await _repo.studentRepository.FindSingleAsync(x => x.Email == student.Email);
+            if (exist == null)
             {
                 Student oStudent = new Student();
                 oStudent.Name = student.Name;
                 oStudent.Email = student.Email;
-                await _repo.CreateAsync(oStudent);
-                if(await _repo.SaveChangesAsync())
+                await _repo.studentRepository.CreateAsync(oStudent);
+                if (await _repo.SaveChangesAsync())
                 {
                     return oStudent;
                 }
@@ -65,11 +151,11 @@ namespace BLL.Service
             Student oStudent = new Student();
             oStudent.Name = student.Name;
             oStudent.Email = student.Email;
-            var exist = await _repo.FindSingleAsync(x => x.Email == student.Email);
-            if(exist==null)
+            var exist = await _repo.studentRepository.FindSingleAsync(x => x.Email == student.Email);
+            if (exist == null)
             {
-                _repo.UpdateteAsync(oStudent);
-                if(await _repo.SaveChangesAsync())
+                _repo.studentRepository.UpdateteAsync(oStudent);
+                if (await _repo.SaveChangesAsync())
                 {
                     return oStudent;
                 }
@@ -79,13 +165,13 @@ namespace BLL.Service
         }
         public async Task<Student> DeleteStudent(int id)
         {
-            var exist = await _repo.FindSingleAsync(x => x.StudentId ==id);
-            if(exist==null)
+            var exist = await _repo.studentRepository.FindSingleAsync(x => x.StudentId == id);
+            if (exist == null)
             {
                 throw new ApplicationValidationException("There is no student with this id");
             }
-            _repo.DeleteAsync(exist);
-            if(await _repo.SaveChangesAsync())
+            _repo.studentRepository.DeleteAsync(exist);
+            if (await _repo.SaveChangesAsync())
             {
                 return exist;
             }
@@ -95,7 +181,7 @@ namespace BLL.Service
 
         public async Task<bool> EmailExist(string email)
         {
-            var oStudent = await _repo.FindSingleAsync(x=>x.Email==email);
+            var oStudent = await _repo.studentRepository.FindSingleAsync(x => x.Email == email);
             if (oStudent == null)
             {
                 return true;
